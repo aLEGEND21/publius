@@ -42,7 +42,7 @@ export default function Home() {
           onClick={() => handleClick(image._id)}
         >
           <Image
-            src={`/faces/${image.name}`}
+            src={`/data/${image.name}`}
             alt={image.name}
             width={300}
             height={300}

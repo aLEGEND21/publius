@@ -44,7 +44,7 @@ export default async function Leaderboard() {
       {normalizedData.map((image: any) => (
         <div key={image._id} className="flex items-center gap-4">
           <img
-            src={`/faces/${image.name}`}
+            src={`/data/${image.name}`}
             alt={image.name}
             width={100}
             height={100}
